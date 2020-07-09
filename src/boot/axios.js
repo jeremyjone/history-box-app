@@ -15,11 +15,7 @@ axios.interceptors.request.use(
     config.headers["Content-Type"] =
       "application/json;application/x-www-form-urlencoded;charset=UTF-8";
 
-    // 添加用户信息到请求头
-    config.headers["Username"] = window.localStorage["username"];
-    config.headers["UserId"] = window.sessionStorage["user_id"];
-
-    config.headers.Authorization = "Bearer " + window.sessionStorage.token;
+    config.headers.Authorization = "Bearer " + "";
     return config;
   },
   error => {

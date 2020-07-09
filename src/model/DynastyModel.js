@@ -10,6 +10,7 @@ export class DynastyModel {
     this.isCenturyEnd = false;
     this.name = "";
     this.comment = "";
+    this.description = "";
     this.bgColor = "";
     this.updateTime = 0;
   }
@@ -25,6 +26,7 @@ export class DynastyModel {
     this.isCenturyEnd = false;
     this.name = "";
     this.comment = "";
+    this.description = "";
     this.bgColor = "";
     this.updateTime = 0;
   }
@@ -40,6 +42,7 @@ export class DynastyModel {
     this.isCenturyEnd = item.isCenturyEnd;
     this.name = item.name;
     this.comment = item.comment;
+    this.description = item.description;
     this.bgColor = item.bgColor;
     this.updateTime = item.updateTime;
   }

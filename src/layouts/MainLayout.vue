@@ -14,7 +14,9 @@
         :enter-active-class="pageAnimation.enter"
         :leave-active-class="pageAnimation.leave"
       >
-        <router-view />
+        <keep-alive>
+          <router-view />
+        </keep-alive>
       </transition>
     </q-page-container>
 

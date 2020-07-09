@@ -1,6 +1,6 @@
 # 历史盒子 (History Box)
 
-![HistoryBox@1.0.0](https://img.shields.io/badge/HistoryBox-1.0.0-blue)
+![HistoryBox@1.0.1](https://img.shields.io/badge/HistoryBox-1.0.1-blue)
 A history timeline view app
 
 Base on ![Vue@2.x](https://img.shields.io/badge/Vue-2.x-41B883) and ![Quasar Framework@1.9.x](https://img.shields.io/badge/Quasar%20Framework-1.9.x-1976D2)

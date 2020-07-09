@@ -74,7 +74,7 @@ module.exports = function(/* ctx */) {
     devServer: {
       open: true, // 在DevServer第一次构建完成时，自动用浏览器打开网页，默认是true
       port: 8080, // 本地端口
-      https: false,
+      https: false
       // 跨域
       // proxy: {
       //   "/api": {
@@ -104,16 +104,10 @@ module.exports = function(/* ctx */) {
       all: "auto",
 
       components: [],
-      directives: [
-        'Intersection'
-      ],
+      directives: ["Intersection", "TouchHold"],
 
       // Quasar plugins
-      plugins: [
-        "Loading",
-        "BottomSheet",
-        "Notify"
-      ]
+      plugins: ["Loading", "BottomSheet", "Notify"]
     },
 
     // animations: 'all', // --- includes all animations

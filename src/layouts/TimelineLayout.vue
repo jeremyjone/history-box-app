@@ -29,17 +29,11 @@
           暂无数据
         </div>
         <q-timeline layout="dense" side="right" color="blue-grey-4">
-          <q-timeline-entry
-            side="left"
-            v-ripple
+          <EventEntryItem
             v-for="item in eventList"
             :key="item.uid"
-            :title="item.title"
-            :subtitle="item.year.toString()"
-            :avatar="item.icon ? item.icon : undefined"
-            :body="item.content"
-          >
-          </q-timeline-entry>
+            :item="item"
+          />
         </q-timeline>
 
         <!-- place QPageSticky at end of page -->
@@ -81,6 +75,7 @@
 </template>
 
 <script>
+import EventEntryItem from "../components/EventEntryItem.vue";
 import { EventModel } from "../model/EventModel";
 import { mapState } from "vuex";
 export default {
@@ -143,7 +138,9 @@ export default {
 
   methods: {},
 
-  components: {}
+  components: {
+    EventEntryItem
+  }
 };
 </script>
 

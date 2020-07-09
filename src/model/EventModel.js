@@ -9,6 +9,7 @@ export class EventModel {
     this.subTitle = "";
     this.content = "";
     this.comment = "";
+    this.description = "";
     this.icon = "";
     this.type = "";
     this.dynastyId = -1;
@@ -25,6 +26,7 @@ export class EventModel {
     this.subTitle = "";
     this.content = "";
     this.comment = "";
+    this.description = "";
     this.icon = "";
     this.type = "";
     this.dynastyId = -1;
@@ -41,6 +43,7 @@ export class EventModel {
     this.subTitle = item.subTitle;
     this.content = item.content;
     this.comment = item.comment;
+    this.description = item.description;
     this.icon = item.icon;
     this.type = item.type;
     this.dynastyId = item.dynastyId;

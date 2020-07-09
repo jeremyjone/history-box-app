@@ -1,6 +1,6 @@
 {
   "name": "j_history_box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "History timeline view app",
   "productName": "历史盒子",
   "cordovaId": "com.jeremyjone.app.historybox",

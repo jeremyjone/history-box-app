@@ -19,6 +19,7 @@
           <HomeEntryItem
             :title="item.name"
             :comment="item.comment"
+            :description="item.description"
             :duration="`${item.startYear} - ${item.endYear}`"
             :bg-color="item.bgColor"
           />

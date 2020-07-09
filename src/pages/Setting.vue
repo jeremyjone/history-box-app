@@ -89,7 +89,7 @@ export default {
           grid,
           actions: [
             {
-              label: "该软件是开源的",
+              label: "软件主页",
               icon: "code",
               id: "code",
               link: "https://github.com/jeremyjone/history-box-app"

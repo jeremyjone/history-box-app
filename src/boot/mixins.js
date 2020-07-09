@@ -5,12 +5,12 @@ import { Toast } from "../utils";
 const appAttr = {
   title: "历史盒子",
   titleEn: "History Box",
-  version: "1.0.0"
+  version: "1.0.1"
 };
 
 export const urls = {
-  getDynasties: rootUrl + "/hb_dynasty",
-  getEvents: rootUrl + "/hb_events"
+  getDynasties: rootUrl + "/api/hb_dynasty",
+  getEvents: rootUrl + "/api/hb_events"
 };
 
 Vue.prototype.$appAttr = appAttr;
